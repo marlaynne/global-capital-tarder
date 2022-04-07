@@ -1,0 +1,29 @@
+.box-info {
+    width: 1536px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-info .info {
+    max-width: 215px;
+    height: 174px;
+    position: relative;
+    padding: 52px 43px 59px 43px;
+    background: #443C60;
+    flex-direction: column;
+    transition: 0,5s ease-in-out;
+    margin-top: -135px;
+    margin-right: 14px;
+}
+
+.box-info .info:hover {
+    height: 815px;
+    max-width: 215px;
+    background: #F0F0F0;
+    margin-top: -135px;
+    margin-right: 14px;
+}
