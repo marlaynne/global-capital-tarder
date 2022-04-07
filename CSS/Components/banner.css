@@ -1,7 +1,7 @@
 .banner {
     background-image: url(../../assets/img/fundo-inicio.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto;
     width: 1536px;
     height: 560px;
     left: 0px;
