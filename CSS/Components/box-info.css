@@ -1,0 +1,8 @@
+.box-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#443C60;
+    width: 293px;
+    height: 237px;
+}
