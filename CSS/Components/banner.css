@@ -1,0 +1,16 @@
+.banner {
+    background-image: url(/assets/img/Fundo\ Inicio.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1536px;
+    height: 560px;
+    left: 0px;
+    top: 118px;
+}
+
+.banner .button{
+    margin-left: 136px;
+    margin-top: 34px;
+    padding-left: 15px;
+    padding-right: 14px;
+}
