@@ -4,4 +4,12 @@
     width: 1536px;
     height: 560px;
     top: 118px;
+    flex-direction: column;
+}
+
+.box .button{
+    margin-left: 136px;
+    margin-top: 34px;
+    padding-left: 15px;
+    padding-right: 14px;
 }
