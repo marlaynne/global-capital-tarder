@@ -4,7 +4,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     flex-wrap: wrap;
 }
 
@@ -35,6 +35,7 @@
     left: 95px;
     top: 0px;
     z-index: 1;
+    align-items: baseline;
 }
 
 .box-info .info:hover .imagem {
@@ -45,6 +46,7 @@
     top: 0px;
     z-index: 1;
     visibility: hidden;
+    align-items: baseline;
 }
 
 .box-info .info .imagem2 {
@@ -55,6 +57,7 @@
     top: 0px;
     z-index: 1;
     visibility: hidden;
+    align-items: baseline;
 }
 
 .box-info .info:hover .imagem2 {
@@ -66,10 +69,12 @@
     z-index: 1;
     visibility: visible;
     margin-bottom: -135px;
+    align-items: baseline;
 }
 
 .box-info .info .imagem img {
     max-width: 100%;
+    align-items: baseline;
 }
 .box-info .info .title {
     position: relative;
