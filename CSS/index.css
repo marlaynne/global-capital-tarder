@@ -8,8 +8,8 @@ header {
 }
 
 img {
-    padding-top: 13px;
-    padding-bottom: 14px;
+    object-fit: contain;
+
 }
 
 nav {
