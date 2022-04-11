@@ -3,39 +3,72 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     align-items: center;
     overflow: hidden;
+    padding-bottom: 120px;
+    text-align: center;
+
 }
 
 .tema {
-    text-align: center;
-    position: absolute;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 53px;
-    line-height: 65px;
-    display: flex;
-    align-items: center;
-    color: #443C60;
+margin-top: 119px;
+margin-bottom: 51px;
 }
 
 .card-samuel {
-    padding-top:
+    margin-top: 51px;
+    margin-right: 39px;
     width: 406px;
     height: 385px;
     left: 343px;
     top: 3302px;
-    background-color: #443C60;
+    background-color: #443c60;
 }
 
 .card-herbert {
+    margin-top: 51px;
     width: 406px;
     height: 385px;
     left: 788px;
     top: 3302px;
     background-color: #443C60;
+}
+
+.foto {
+    margin-top: 23.88px;
+    margin-right: 109.85px;
+    margin-left: 109.86px;
+    margin-bottom: 13.83px;
+    align-items: center;
+}
+
+.nomes {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.função {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 23px;
+    color: #FFFFFF;
+    align-items: center;
+    margin-bottom: 40.19px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
