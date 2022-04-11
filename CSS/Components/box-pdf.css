@@ -1,0 +1,18 @@
+.box-pdf {
+    background: #443C60;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.box-pdf .card-pdf img {
+    width: 640px;
+    float: right;
+    margin-left: 101px;
+    padding-top: 77px;
+    padding-right: 122px;
+}

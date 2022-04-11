@@ -4,7 +4,6 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: baseline;
     flex-wrap: wrap;
 }
 
@@ -24,7 +23,6 @@
     height: 700px;
     max-width: 260px;
     background: #F0F0F0;
-    margin-top: -135px;
     margin-right: 14px;
 }
 
