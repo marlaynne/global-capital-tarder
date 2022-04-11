@@ -1,32 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+/*Zerando CSS*/
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-a {
-    color: #fff;
-    text-decoration: none;
-    transition: 0.3s;
+/*Fundo-tela*/
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Montserrat';
 }
 
-nav {
+body {
+    background-image: url(/assets/img/Fundo-Inicio.png);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+/*Menu - Header - NavBar*/
+
+header {
+    width: 100%;
+    height: 7vh;
+}
+
+.menu-content {
+    margin-top: 37px;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Montserrat';
-    font-weight: 800;
-    background: #C4C4C4;
-    height: 15vh;
+    font-size: 15px;
+    margin-bottom: 39px;
 }
 
-.nav-list {
-    list-style: none;
+.logo {
+    cursor: pointer;
+}
+
+.menu-content .list-itens {
     display: flex;
+    list-style: none;
 }
 
-.nav-list li {
-    margin-left: 32px;
+.menu-content .list-itens a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    padding: 1.5rem;
 }
+
+/*Efeito Menu*/
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #9929EA;
+    transition: 0.3s all;
+}
+
+/*Centro - Conteúdo Principal*/
+
+main {
+    height: 93vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left: 136px;
+    margin-top: 113px;
+}
+
+/*Texto conteúdo principal*/
+
+.primary-text {
+    width: 717px;
+    font-weight: 800;
+    font-size: 64px;
+    margin-bottom: 34px;
+    text-align: left;
+}
+
+.second-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/*Botão*/
+
+#inscreva-se-btn {
+    background-color: #443C60;
+    border-radius: 10px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: rgb(153, 41, 234, 1);
+    color: #fff;
+}
+
+.btn {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 205px;
+}
+
+.btn button {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    width: 258px;
+    height: 50px;
+    background-color: #443C60;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn button:hover {
+    background-color: rgb(153, 41, 234, 1);
+    color: #fff;
+}
+
+
+/*Mobiel Menu*/
 
 .mobile-menu {
     display: none;
