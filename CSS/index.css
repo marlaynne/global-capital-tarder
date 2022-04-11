@@ -72,7 +72,7 @@ a:hover {
 /*Centro - Conteúdo Principal*/
 
 main {
-    height: 93vh;
+    height: 87vh;
     display: flex;
     justify-content: left;
     align-items: left;
@@ -85,6 +85,31 @@ main {
     align-items: left;
     margin-left: 136px;
     margin-top: 113px;
+}
+
+.main-content .btn a {
+    text-decoration: none;
+    list-style: none;
+    background-color: #443C60;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 205px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    width: 258px;
+    height: 50px;
+    background-color: #443C60;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-content .btn a:hover {
+    background-color: rgb(153, 41, 234, 1);
+    color: #fff;
 }
 
 /*Texto conteúdo principal*/
@@ -111,31 +136,6 @@ main {
 }
 
 #inscreva-se-btn:hover {
-    background-color: rgb(153, 41, 234, 1);
-    color: #fff;
-}
-
-.btn {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 205px;
-}
-
-.btn button {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 15px;
-    width: 258px;
-    height: 50px;
-    background-color: #443C60;
-    color: #fff;
-    border-radius: 10px;
-    cursor: pointer;
-
-}
-
-.btn button:hover {
     background-color: rgb(153, 41, 234, 1);
     color: #fff;
 }
