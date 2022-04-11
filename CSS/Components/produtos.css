@@ -6,6 +6,7 @@
     justify-content: left;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 162px;
 }
 
 .produtos .card{

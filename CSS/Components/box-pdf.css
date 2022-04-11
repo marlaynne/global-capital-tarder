@@ -6,8 +6,14 @@
     justify-content: left;
     align-items: center;
     flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
 }
 
+.card-pdf {
+    margin-left: 121px;
+    flex-wrap: wrap;
+}
 
 .box-pdf .card-pdf img {
     width: 640px;
@@ -15,4 +21,46 @@
     margin-left: 101px;
     padding-top: 77px;
     padding-right: 122px;
+    margin-bottom: 77px;
+}
+
+.box-pdf .card-pdf h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 44px;
+    margin-top: 77px;
+}
+
+.box-pdf .card-pdf p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.box-pdf .card-pdf a {
+    margin-top: 44px;
+    display: inline-block;
+    padding: 15px 11px;
+    margin-right: 0;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 800;
+}
+.box-pdf .card-pdf a:hover {
+    margin-top: 44px;
+    transform: scale(1.09);
+    background-color: #9929EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
 }
