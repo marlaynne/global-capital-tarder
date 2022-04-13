@@ -39,7 +39,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    align-content: center;
+    align-content: space-between;
 }
 
 .form {
@@ -94,27 +94,22 @@
     color: #eeeeee75;
 }
 
-.enviar-button button {
+button {
     width: 30%;
     border: none;
     background-color: #443C60;
     padding: 0.62rem;
     border-radius: 3px;
     cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
 }
 
-.enviar-button button:hover {
+button:hover {
     background-color: #9929EA;
 }
-
-.enviar-button button a {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 700;
-    color: #FFFFFF;
-}
-
-
 
 .tema2 h2 {
     font-family: 'Montserrat';

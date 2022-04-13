@@ -43,8 +43,8 @@
             </div>
             <ul class="nav-list">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Quem Somos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#diretores">Quem Somos</a></li>
+                <li><a href="#contato">Contato</a></li>
                 <li><a href="https://globalcapitaltrader.com/login">Login</a></li>
                 <li><a href="https://globalcapitaltrader.com/register.php?id=c20ad4d76&invited_by=Hebert&app=12" id="inscreva-se-btn">QUERO SER UM INVESTIDOR</a></li>
             </ul>
@@ -179,7 +179,7 @@
     </div>
 
     <div class="tema1">
-        <h1>Diretores Global Capital Trader</h1>
+        <h1> <a name="diretores">Diretores Global Capital Trader</a></h1>
     </div>
 
     <div class="diretores">
@@ -239,17 +239,26 @@
                 <h2>Endereço</h2><br>
                 <p>Avenida T63, 1296 <br>Quadra145 Lote 8/24 <br>Ed. New World Con Office sala 417 <br> St. Bueno - Goiânia - GO</p>
                 <div class="socialmedia-form">
-                    <img src="/assets/icones/instagram.png" alt="">
-                    <img src="/assets/icones/facebook.png" alt="">
-                    <img src="/assets/icones/E-MAIL.png" alt="">
+                    <a href="https://www.instagram.com/globalcapitaloficial/?hl=pt-br">
+                        <img src="/assets/icones/instagram.png" alt="">
+                    </a>
+                        
+                    <a href="https://www.facebook.com/Global-Capital-102501455709968">
+                        <img src="/assets/icones/facebook.png" alt="">
+                    </a>
+
+                    <a href="mailto:contato@globalcapitaltrader.com">
+                        <img src="/assets/icones/E-MAIL.png" alt="">
+                    </a>
                 </div>
             </div>
             <div clas="form">
-                <form action="#">
+                <form action="https://formsubmit.co/contato@globalcapitaltrader.com" method="POST">
+                    
                     <div class="form-header">
 
                         <div class="tema2">
-                            <h2>FALE CONOSCO</h2><br>
+                            <h2> <a name="contato">FALE CONOSCO</a></h2><br>
                         </div>
                     
                         <div class="imput-group">
@@ -257,29 +266,21 @@
                             <div class="imput-box">
                                 <label for="name">Nome</label>
                                 <input id="name" tipe="text" name="name" placeholder="Digite seu nome" required>
-                            </div>
                             <!--EMAIL-->
-                            <div class="imput-box">
                                 <label for="email">Email</label>
                                 <input id="email" tipe="email" name="email" placeholder="Digite seu email" required>
-                            </div>
                             <!--TELEFONE-->
-                            <div class="imput-box">
                                 <label for="number">Telefone</label>
                                 <input id="number" tipe="tel" name="number" placeholder="(xx) xxxxx-xxxx" required>
-                            </div>
                             <!--MENSAGEM-->
-                            <div class="imput-box">
                                 <label for="msg">Mensagem</label>
                                 <input id="msg" tipe="text" name="msg" placeholder="Digite sua mensagem" required>
                             </div>
+                            <button type="Submit">Enviar</button>
                         </div>
+                        <input type="hidden" name="_captcha" value="false">
                     </div>
                 </form>
-
-                <div class="enviar-button">
-                    <button><a href="#">Enviar</a></button>
-                </div>
             </div>
                
 
