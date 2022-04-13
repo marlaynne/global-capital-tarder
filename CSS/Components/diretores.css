@@ -21,7 +21,6 @@
 
 }
 
-
 .card-samuel {
     margin-top: 51px;
     margin-right: 39px;
@@ -30,13 +29,6 @@
     left: 343px;
     top: 3302px;
     background-color: #443c60;
-}
-
-/*Responsive card-samuel*/
-
-@media screen and (max-width: 768px) {
-    .card-samuel {
-        margin-right: 0;
 }
 
 .card-herbert {
@@ -82,4 +74,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+/*Responsive card-samuel*/
+
+@media screen and (max-width: 768px) {
+    .card-samuel {
+        margin-right: 0;
 }
