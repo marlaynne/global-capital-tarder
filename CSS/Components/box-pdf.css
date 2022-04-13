@@ -28,11 +28,10 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
-    font-size: 44px;
-    line-height: 50px;
     color: #FFFFFF;
     margin-bottom: 44px;
     margin-top: 77px;
+    font-size: clamp(24px, 1em + 3vw, 44px);
 }
 
 .box-pdf .card-pdf p {
@@ -73,3 +72,56 @@
     color: #fff;
 }
 
+/*Responsive Box-PDF*/
+
+@media screen and (max-width: 768px){
+    .box-pdf {
+        box-sizing: content-box;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        overflow: hidden;
+        text-align: center;
+        width: 100%;
+    }
+    .box-pdf .card-pdf img {
+        height: auto;
+        padding: 0;
+        float: none;
+        margin: 0;
+    }
+    .card-pdf {
+        align-items: center;
+        padding: 0;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .box-pdf {
+        width: 100%;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .box-pdf .card-pdf img {
+        align-items: center;
+        width: 241px;
+        height: 161px;
+        padding: 0;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+        line-height: 0;
+    }
+    .card-pdf {
+        align-items: center;
+        padding: 0;
+        margin: 20px;
+        padding: 20px;
+    }
+}
