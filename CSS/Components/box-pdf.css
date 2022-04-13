@@ -84,6 +84,11 @@
         overflow: hidden;
         text-align: center;
         width: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
     }
     .box-pdf .card-pdf img {
         height: auto;
