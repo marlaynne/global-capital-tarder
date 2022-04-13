@@ -10,7 +10,6 @@
 /*Fundo-tela*/
 
 html {
-    width: 100vw;
     height: 100vh;
     font-size: 62.5%;
     color: white;
@@ -28,7 +27,7 @@ body {
 
 @media screen and (max-width: 480px) {
     body {
-        width: 100%;
+        width: 480px;
     }
 }
 
@@ -36,7 +35,7 @@ body {
 
  @media screen and (max-width: 768px) {
     body {
-        width: 100%;
+        width: 768px;
     }
 }
 

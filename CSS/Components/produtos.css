@@ -3,7 +3,6 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
     display: flex;
-    justify-content: left;
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 162px;
@@ -12,7 +11,7 @@
 .produtos .card{
     position: center;
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 100px;
     width: 300px;
     background-color: #C4C4C4;
     overflow: hidden;
