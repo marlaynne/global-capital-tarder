@@ -18,11 +18,10 @@ html {
 }
 
 body {
-
-    background-image: url(/assets/img/Fundo-Inicio.png);
-    background-position: center center;
-    background-position-y: 0px;
-    background-repeat: no-repeat;
+        background-image: url(/assets/img/Fundo-Inicio.png);
+        background-position: center center;
+        background-position-y: 0px;
+        background-repeat: no-repeat;
 }
 
  /*Responsive Mobile*/
@@ -86,7 +85,7 @@ main {
 .primary-text {
     width: 717px;
     font-weight: 800;
-    font-size: clamp(20px, 1em + 3vw, 64px);
+    font-size: 64px;
     margin-bottom: 34px;
     text-align: left;
 }
@@ -94,7 +93,7 @@ main {
 .second-text {
     font-style: normal;
     font-weight: 400;
-    font-size: clamp(11px, 1em + 3vw, 24px);
+    font-size: 24px;
 }
 
 /*Text Responsive Margin Mobile*/
@@ -104,11 +103,22 @@ main {
         margin-left: 29px;
     }
     .primary-text {
-        width: 717px;
-        font-weight: 800;
-        font-size: clamp(20px, 1em + 3vw, 64px);
-        margin-bottom: 34px;
-        text-align: left;
+        font-size: clamp(20px, 1em + 3vw, 30px);
+    }
+    
+    .second-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: clamp(11px, 1em + 0.3vw, 24px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        margin-left: 29px;
+    }
+    .primary-text {
+        font-size: clamp(20px, 1em + 3vw, 50px);
     }
     
     .second-text {
