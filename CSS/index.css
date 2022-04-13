@@ -18,9 +18,9 @@ html {
 }
 
 body {
+
     background-image: url(/assets/img/Fundo-Inicio.png);
     background-position: center center;
-    background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
 }
@@ -41,10 +41,6 @@ body {
     }
 }
 
-/*Menu - Header - NavBar*/
-
-
-
 /*Centro - Conteúdo Principal*/
 
 main {
@@ -60,7 +56,6 @@ main {
     justify-content: left;
     align-items: left;
     margin-left: 136px;
-    margin-top: 113px;
 }
 
 .main-content .btn a {
@@ -143,6 +138,7 @@ main {
     background-color: rgb(153, 41, 234, 1);
     color: #fff;
 }
+
 
 
 /*Margin = fora | Padding = dentro*/
