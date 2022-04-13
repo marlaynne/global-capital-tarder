@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+a#inscreva-se-btn {
+  text-decoration: none;
+  list-style: none;
+  background-color: #443C60;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 205px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  width: 258px;
+  height: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+
+a#inscreva-se-btn:hover {
+  background-color: rgb(153, 41, 234, 1);
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+main {
+  align-items: center;
+  width: 100%;
+  background-image: url(/assets/img/Fundo-Inicio.png) no-repeat center center;
+  background-position: center center;
+  background-size: cover;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+}
+
+.nav-list {
+  align-items: center;
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin-left: 25px;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 35px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+header {
+  padding-top: 13px;
+}
+
+/*Responsive Menu*/
+
+@media screen and (max-width:920px) {
+  nav {
+    margin-top: -13px;
+    background: #C4C4C4;
+    height: 15vh;
+  }  
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav-list li a#inscreva-se-btn {
+    display: none;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 15vh;
+    right: 0;
+    width: 35vw;
+    height: 92vh;
+    background: #C4C4C4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+    }
+  .mobile-menu {
+    display: block;
+  }
+}
+
+.nav-list.active {
+  transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+  background-color: #443C60;
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+  background-color: #443C60;
+}
