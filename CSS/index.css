@@ -18,15 +18,16 @@ html {
 body {
     min-height: 252px;
     max-height: 560px;
-    min-width: 320px;
-    margin: 0;
+    width: auto;
+    margin: 0 auto;
 }
 
 #hero {
-    background-image: url(../assets/img/Fundo-Inicio.png);
+    background-image: url(../assets/img/fundo-inicio.png);
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 100px;
+    width: auto;
+    background-size: cover;
 }
 
 /*Centro - Conteúdo Principal*/
