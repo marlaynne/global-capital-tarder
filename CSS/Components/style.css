@@ -50,11 +50,12 @@ nav {
 
 main {
   align-items: center;
-  background-image: url(/assets/img/Fundo-Inicio.png) no-repeat center center;
+  background-image: url(/assets/img/fundo-cursos.png) no-repeat center center;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 113px;
+  margin: auto;
 }
 
 .nav-list {
@@ -66,6 +67,7 @@ main {
 .nav-list li {
   margin-left: 25px;
 }
+
 
 .mobile-menu {
   display: none;
@@ -98,5 +100,11 @@ header {
   }
   .nav-list li a#contact {
     display: none;
+  }
+  .nav-list {
+    margin: 0;
+  }
+  .nav-list li {
+    margin-left: 0px;
   }
 }
