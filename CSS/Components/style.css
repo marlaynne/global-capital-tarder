@@ -54,7 +54,7 @@ main {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 0;
+  padding-bottom: 113px;
 }
 
 .nav-list {
@@ -87,67 +87,16 @@ header {
 /*Responsive Menu*/
 
 @media screen and (max-width:920px) {
-  nav {
-    margin-top: -13px;
-    background: #C4C4C4;
-    height: 15vh;
-  }  
-  body {
-    overflow-x: hidden;
-  }
-
-  .nav-list li a#inscreva-se-btn {
+    .nav-list li a#inscreva-se-btn {
     display: none;
   }
-
-  .nav-list {
-    overflow: hidden;
-    position: absolute;
-    top: 15vh;
-    right: 0;
-    width: 35vw;
-    height: 92vh;
-    background: #C4C4C4;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; 
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
+  .nav-list li a#home {
+    display: none;
   }
-  .nav-list li {
-    margin-left: 0;
-    opacity: 0;
-    }
-  .mobile-menu {
-    display: block;
+  .nav-list li a#about-us {
+    display: none;
   }
-}
-
-.nav-list.active {
-  transform: translateX(0);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
+  .nav-list li a#contact {
+    display: none;
   }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.mobile-menu.active .line1 {
-  transform: rotate(-45deg) translate(-8px, 8px);
-  background-color: #443C60;
-}
-
-.mobile-menu.active .line2 {
-  opacity: 0;
-}
-
-.mobile-menu.active .line3 {
-  transform: rotate(45deg) translate(-5px, -7px);
-  background-color: #443C60;
 }

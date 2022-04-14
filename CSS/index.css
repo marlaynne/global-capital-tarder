@@ -20,22 +20,19 @@ body {
     max-height: 560px;
     min-width: 320px;
     margin: 0;
-
-    background-image: url(../assets/img/Fundo-Inicio.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden
 }
 
 #hero {
-    height: auto;
+    background-image: url(../assets/img/Fundo-Inicio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100px;
 }
 
 /*Centro - Conteúdo Principal*/
 
 main {
     padding-top: 113px;
-    padding-bottom: 113px;
     min-height: 300px;
     max-height: 560px;
     display: flex;
