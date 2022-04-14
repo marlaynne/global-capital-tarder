@@ -75,7 +75,7 @@
 
 /*Responsive Box-PDF*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 820px){
     .box-pdf {
         box-sizing: content-box;
         justify-content: center;
@@ -92,10 +92,11 @@
         align-items: center;
     }
     .box-pdf .card-pdf img {
+        align-items: center;
         height: auto;
         padding: 0;
         float: none;
-        margin: 0;
+        margin: 0 auto;
     }
     .card-pdf {
         align-items: center;
