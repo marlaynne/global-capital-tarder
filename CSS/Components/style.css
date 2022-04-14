@@ -54,7 +54,7 @@ main {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: -60px;
+  margin-bottom: 0;
 }
 
 .nav-list {
@@ -101,6 +101,7 @@ header {
   }
 
   .nav-list {
+    overflow: hidden;
     position: absolute;
     top: 15vh;
     right: 0;

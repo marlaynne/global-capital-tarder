@@ -29,10 +29,11 @@
 }
 
 #contato_form div iframe {
-    width: 500px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     transition: all 1.5s ease-in-out;
 }
+
 
 .socialmedia-form {
     flex-direction: row;

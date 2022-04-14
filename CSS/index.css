@@ -10,39 +10,34 @@
 /*Fundo-tela*/
 
 html {
-    height: 100vh;
     font-size: 62.5%;
     color: white;
     font-family: 'Montserrat';
 }
 
 body {
-        background-image: url(/assets/img/Fundo-Inicio.png);
-        background-position: center center;
-        background-position-y: 0px;
-        background-repeat: no-repeat;
+    min-height: 252px;
+    max-height: 560px;
+    min-width: 320px;
+    margin: 0;
+
+    background-image: url(../assets/img/Fundo-Inicio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden
 }
 
- /*Responsive Mobile*/
-
-@media screen and (max-width: 480px) {
-    body {
-        width: 480px;
-    }
-}
-
- /*Responsive Tablet*/
-
- @media screen and (max-width: 768px) {
-    body {
-        width: 768px;
-    }
+#hero {
+    height: auto;
 }
 
 /*Centro - Conteúdo Principal*/
 
 main {
-    height: 87vh;
+    padding-top: 113px;
+    padding-bottom: 113px;
+    min-height: 300px;
+    max-height: 560px;
     display: flex;
     justify-content: left;
     align-items: left;
@@ -82,9 +77,9 @@ main {
 /*Texto conteúdo principal*/
 
 .primary-text {
-    width: 717px;
+    width: auto;
     font-weight: 800;
-    font-size: 64px;
+    font-size: 50px;
     margin-bottom: 34px;
     text-align: left;
 }
@@ -92,7 +87,7 @@ main {
 .second-text {
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 /*Text Responsive Margin Mobile*/
@@ -101,29 +96,11 @@ main {
     .main-content {
         margin-left: 29px;
     }
-    .primary-text {
-        font-size: clamp(20px, 1em + 3vw, 30px);
-    }
-    
-    .second-text {
-        font-style: normal;
-        font-weight: 400;
-        font-size: clamp(11px, 1em + 0.3vw, 24px);
-    }
 }
 
 @media screen and (max-width: 768px) {
     .main-content {
         margin-left: 29px;
-    }
-    .primary-text {
-        font-size: clamp(20px, 1em + 3vw, 50px);
-    }
-    
-    .second-text {
-        font-style: normal;
-        font-weight: 400;
-        font-size: clamp(11px, 1em + 0.3vw, 24px);
     }
 }
 
