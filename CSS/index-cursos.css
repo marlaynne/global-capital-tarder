@@ -85,12 +85,52 @@ main {
 
 /*Botão*/
 
-#inscreva-se-btn {
+.btn {
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 160px;
+}
+
+.btn a {
+    text-decoration: none;
+    list-style: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 205px;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 82%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#btn-curso {
+    width: 702px;
+    height: 136px;
+    left: 369px;
+    top: 1009px;
+    border-radius: 10px;
+    cursor: pointer;
     background-color: #443C60;
     border-radius: 10px;
 }
 
-#inscreva-se-btn:hover {
+#btn-curso:hover {
+    width: 702px;
+    height: 136px;
+    left: 369px;
+    top: 1009px;;
+    border-radius: 10px;
+    cursor: pointer;
     background-color: rgb(153, 41, 234, 1);
     color: #fff;
 }

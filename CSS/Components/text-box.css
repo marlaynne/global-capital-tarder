@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+/*Zerando CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-box {
+    background-color: #C4C4C4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: auto;
+    flex-wrap: wrap;
+    padding-bottom: 160px;
+}
+
+.arrow {
+    align-items: center;
+    display: flex;
+}
+
+.box1 {
+    margin-top: 50px;
+    width: 284px;
+    height: 230px;
+    left: 400px;
+    top: 616px;
+    background: #443C60;
+    border-radius: 10px;
+    align-items: center;
+}
+.box2 {
+    margin-top: 50px;
+    width: 284px;
+    height: 230px;
+    left: 400px;
+    top: 616px;
+    background: #443C60;
+    border-radius: 10px;
+    align-items: center;
+}
+.box3 {
+    margin-top: 50px;
+    width: 284px;
+    height: 230px;
+    left: 400px;
+    top: 616px;
+    background: #443C60;
+    border-radius: 10px;
+    align-items: center;
+}
+.box4 {
+    margin-top: 50px;
+    width: 284px;
+    height: 230px;
+    left: 400px;
+    top: 616px;
+    background: #443C60;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.box1 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 133%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 60px;
+}
+.box2 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 133%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 60px;
+}
+.box3 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 133%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 70px;
+}
+.box4 p {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 133%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+}
