@@ -78,7 +78,11 @@
 
 /*Responsive card-samuel*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
     .card-samuel {
         margin-right: 0;
+    }
+    .diretores {
+        padding: 5px;
+    }
 }
